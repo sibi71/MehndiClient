@@ -2,7 +2,7 @@ import React from 'react'
 import "./Footer.css"
 import { HiArrowLongRight } from 'react-icons/hi2'
 import { Link } from 'react-router-dom'
-import { footer } from '../../../../clients/src/Static/db'
+import { footer } from '../../Static/db'
 
 const Footer = () => {
     return (

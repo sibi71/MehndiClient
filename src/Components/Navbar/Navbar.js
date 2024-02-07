@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
-import { navbar } from '../../../../clients/src/Static/db'
+import { navbar } from '../../Static/db'
 import {  NavLink } from 'react-router-dom'
 import Navlink from "../Navlink/Navlink"
 import { HiMenuAlt3, HiX } from "react-icons/hi"

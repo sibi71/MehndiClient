@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/no-distracting-elements */
 import React from 'react'
 import "./Home.css"
-import { about, book, expertise, gallery, header, whyus } from '../../../../clients/src/Static/db'
+import { about, book, expertise, gallery, header, whyus } from '../../Static/db'
 import { Link } from 'react-router-dom'
 import { HiArrowLongRight } from "react-icons/hi2"
 import Swipers from '../../Components/Swipers/Swipers'

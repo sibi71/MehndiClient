@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/no-distracting-elements */
 import React from 'react'
-import { book, header } from '../../../../clients/src/Static/db'
+import { book, header } from '../../Static/db'
 import "./Gallery.css"
 import { Link } from 'react-router-dom'
 import Imagelist from '../../Components/Imagelist/Imagelist'

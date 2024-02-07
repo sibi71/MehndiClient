@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Faq.css"
-import { faq } from '../../../../clients/src/Static/db';
+
 const Faq = () => {
     return (
         <div className='faq'>
