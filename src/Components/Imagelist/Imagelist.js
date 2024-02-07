@@ -28,6 +28,7 @@ const Imagelist = () => {
                         <ImageListItemBar
                           title={item.subtitle}
                           subtitle={item.author}
+                          className='imagelist_title'
                           actionIcon={
                             <IconButton
                               sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
