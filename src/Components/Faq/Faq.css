@@ -1,0 +1,25 @@
+.faq{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    
+}
+.faq_title{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.faq_card::before{
+    background-color: transparent !important;
+}
+.faq_card {
+    background-color: var(--swiper-second-color) !important;
+    border-radius: 30px !important;
+    margin: 1rem !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px !important;  
+    text-transform: capitalize;
+    
+}
