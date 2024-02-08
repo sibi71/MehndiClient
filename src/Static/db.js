@@ -53,8 +53,8 @@ export const header = [
             video6,
         ],
         title: "Discover the Beauty of Mehndi 🌿",
-        sub: "Captivate hearts and celebrate traditions with our exquisite Mehndi designs. From bridal elegance to festive celebrations, we bring the magic of henna to life."
-
+        sub: "Captivate hearts and celebrate traditions with our exquisite Mehndi designs. From bridal elegance to festive celebrations, we bring the magic of henna to life.",
+        btn:"Book Now for Bridal Mehndi"
     },
 
 ]
@@ -65,7 +65,7 @@ export const expertise = [
         img: "https://media.weddingz.in/images/d4d1c5c3e15d298ad37c0ab79cfc0bb4/Henna-for-all-5.jpg"
     },
     {
-        title: "Traditional Designs",
+        title: "Henna Parties",
         btn: "enquire now",
         img: "https://lifestyleweblogs.com/wp-content/uploads/2023/06/full-front-hand-mehndi-design.jpg"
     },
@@ -372,4 +372,73 @@ export const faq = [
     }
 
 
+]
+export const service=[
+    {
+        category:[
+            {
+                title: "Elegance Unveiled: Bridal Mehndi Services",
+                sub: "Transform your wedding day into a canvas of intricate beauty with our bespoke Bridal Mehndi services. Each design is crafted to complement your unique style and celebrate the joy of this special occasion.",
+                img:"https://media.weddingz.in/images/d4d1c5c3e15d298ad37c0ab79cfc0bb4/Henna-for-all-5.jpg",
+                Highlightstitle:"Service Highlights",
+                Highlights:[
+                    {line:"Customized bridal designs tailored to your preferences."},
+                    {line:"Use of natural henna for a rich and lasting color."},
+                    {line:"Experienced artists dedicated to creating a masterpiece for your big day."}
+                ],
+                Benefitstitle:"Benefits and Features",
+                Benefits:[
+                
+                    {line:"Personalized consultations for design planning."},
+                    {line:"Traditional and contemporary bridal patterns available."},
+                    {line:"Long-lasting and vibrant Mehndi guaranteed to enhance your bridal look"}
+                ],
+                Prices:"5,000/Events",
+                btn:"book now"
+
+                
+            },
+            {
+                title: "Celebrate with Style: Mehndi Parties and Events",
+                sub: "Make your celebrations memorable with our Mehndi Party and Event services. Whether it's a birthday, cultural event, or just a gathering of friends, we bring the joy of Mehndi to every occasion.",
+                img:"https://lifestyleweblogs.com/wp-content/uploads/2023/06/full-front-hand-mehndi-design.jpg",
+                Highlightstitle:"Service Highlights",
+                Benefitstitle:"Benefits and Features",
+                btn:"book now",
+                Highlights:[
+                    {line:"On-site Mehndi artists for parties and events."},
+                    {line:"Customized group packages for a unique experience."},
+                    {line:"Festive and vibrant Mehndi designs to elevate the celebration"}
+                ],
+                Benefits:[
+                    {line:"Group Bonding: Highlight how Mehndi parties create a fun and bonding experience."},
+                    {line:"Custom Themes: Offer customization based on the theme or nature of the event."},
+                    {line:"Inclusive Packages: Detail what is included in your Mehndi party packages."}
+                ],
+                Prices:"10,000/Events"
+                
+            },
+            {
+                title: "Cherish Every Moment: Special Event Mehndi",
+                sub: "Add a touch of elegance to your special moments with our Special Event Mehndi services. Whether it's an anniversary, baby shower, or any milestone, we create designs that resonate with your joy",
+                img:"https://www.beyoung.in/blog/wp-content/uploads/2023/06/Bridal-Mehndi-Design-for-Back-Hands-2.jpg",
+                Highlightstitle:"Service Highlights",
+                Benefitstitle:"Benefits and Features",
+                btn:"book now",
+                Highlights:[
+                    {line:"Tailored Mehndi designs to match the theme and significance of the event."},
+                    {line:"Use of natural henna for a rich and lasting color."},
+                    {line:"Experienced artists dedicated to creating a masterpiece for your big day."}
+                ],
+                Benefits:[
+                    {line:"Personalized consultations for design planning."},
+                    {line:"Traditional and contemporary bridal patterns available."},
+                    {line:"Long-lasting and vibrant Mehndi guaranteed to enhance your bridal look"}
+                ],
+                Prices:"15,000/Events"
+                
+            },
+        ],
+       
+    }
 ]

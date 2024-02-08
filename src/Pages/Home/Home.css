@@ -17,13 +17,13 @@
 }
 
 .home_title h1 {
+    margin: 0;
     color: var(--swiper-navigation-color);
 }
 
 .home_title p {
     color: gray;
 }
-
 .home_video {
     width: 60vw;
     display: flex;

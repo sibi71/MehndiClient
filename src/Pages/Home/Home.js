@@ -7,7 +7,7 @@ import { HiArrowLongRight } from "react-icons/hi2"
 import Swipers from '../../Components/Swipers/Swipers'
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' id="home">
       {
         header.map((data, index) => {
           return (

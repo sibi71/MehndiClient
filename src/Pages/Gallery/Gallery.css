@@ -1,5 +1,4 @@
 .gallery{
-   
     padding: 1rem 0;
     
 
@@ -45,4 +44,5 @@
     .gallery_container marquee{
         border-radius: 10px ;
     }
+    
 }

@@ -1,0 +1,193 @@
+.service{
+    padding: 1rem 0;
+}
+.service_title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    text-transform: capitalize;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+     padding: 2rem 0;
+}
+.service_title_left{
+    width: 50vw;
+}
+.service_title_left h5{
+    font-size: 50px;
+    margin: 0;
+    color: var(--swiper-navigation-color);
+}
+.service_title_left p {
+    color: gray;
+}
+.service_title_img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 1rem;
+    border-radius: 30px;
+}
+.service_title_img img{
+    width: 350px;
+    height: fit-content;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.service_category{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service_category_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    text-transform: capitalize;
+    border-radius: 99px;
+    transition: 1s all ease-in-out;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.service_category_details:hover{
+    background-color: var(--swiper-navigation-color);
+    color: white;
+}
+.service_category_details h5{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.service_category_details img {
+    width: 250px;
+    height: 250px;
+    border-radius: 70px;
+    object-fit: cover;
+    transition: 1s all ease-in-out;
+}
+.service_container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 1rem 0;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.service_details{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+    flex-direction: row-reverse;
+    padding: 2rem;
+    margin: 1rem;
+    transition: 0.8s all ease-in-out;
+    border-radius: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.service_details:hover{
+    background-color: var(--swiper-navigation-color);
+    color: white;
+    
+}
+
+.service_details img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.service_category_title {
+   padding: 0 1rem;
+}
+.service_category_title h5{
+    font-size: 30px;
+    margin: 0;
+}
+
+
+.service_card{
+    background-color: var(--swiper-second-color) !important;
+    border-radius: 30px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px !important;  
+    text-transform: capitalize;
+    
+}
+
+.service_body {
+    padding: 8px 16px 1px !important;
+}
+.service_price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+.service_price h5{
+    font-size: 30px;
+    margin: 0;
+    
+}
+.serive_book_btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1rem;
+
+}
+.serive_book_btn button {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 99px;
+    padding: 0.8rem 3rem;
+    color: black;
+    transition: 0.5s all ease-in-out;
+}
+.service_details:hover .serive_book_btn button{
+    border: none;
+    color: var(--swiper-navigation-color);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+@media screen  and (max-width:769px){ 
+    .service_title{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .service_title_left{
+        width: auto;
+    }
+    .service_title_left h5{
+        font-size: 30px;
+    }
+    .service_details{
+        justify-content: center;
+        flex-direction: column;
+        width: 70vw;
+        
+    }
+    .service_category_title{
+        width: 70vw;
+        
+    }
+    .service_card{
+        width: 70vw;
+    }
+    .service_category_title h5{
+        font-size: 30px;
+    }
+    
+}

@@ -9,7 +9,11 @@ import { gallery } from '../../Static/db';
 const Imagelist = () => {
   return (
     <div className='imagelist'>
-      <ImageList >
+      <ImageList style={{
+        gridTemplateColumns:" repeat(auto-fit, minmax(250px, 1fr)) ",
+        gap:"4px"
+    
+      }} >
         {
           gallery.map((gallery) => {
             return (
@@ -18,9 +22,9 @@ const Imagelist = () => {
                   gallery.imglist.map((item) => {
                     return (
 
-                      <ImageListItem key={item.bookImgs} cols={1} >
+                      <ImageListItem key={item.bookImgs}   >
                         <img
-                          srcSet={`${item.bookImgs}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                          srcSet={`${item.bookImgs}?w=248&fit=crop&auto=format&dpr=3 2x`}
                           src={`${item.bookImgs}?w=248&fit=crop&auto=format`}
                           alt={item.subtitle}
                           loading="lazy"
