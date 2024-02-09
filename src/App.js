@@ -9,6 +9,7 @@ import Faq from './Components/Faq/Faq'
 import Service from './Pages/Service/Service'
 import Booknow from "./Pages/Booknow/Booknow"
 import Learn from './Pages/Learn/Learn'
+import Contact from './Pages/Contact/Contact'
 const App = () => {
   return (
     <Router>
@@ -27,6 +28,9 @@ const App = () => {
       </Routes>
       <Routes>
         <Route path='/e-learning' element={<><Learn /> </>} />
+      </Routes>
+      <Routes>
+        <Route path='/contact Us' element={<><Contact /> </>} />
       </Routes>
       <Faq />
       <Footer />
