@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Booknow.css"
-import { useParams, Navigate, Link } from "react-router-dom"
-import { Elements } from "@stripe/react-stripe-js"
-import { loadStripe } from "@stripe/stripe-js"
-import { book, service } from '../../Static/db';
+import { useParams,Link } from "react-router-dom"
+
+import { service } from '../../Static/db';
 import { FaAngleLeft } from "react-icons/fa";
 
 const Booknow = () => {

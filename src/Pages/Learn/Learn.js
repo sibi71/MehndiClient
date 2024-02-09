@@ -24,7 +24,7 @@ const Learn = () => {
 
                             </div>
                             {/*section  gallery*/}
-                            <div className='home_gallery'>
+                            <div className='home_gallery' >
                                 {/* <div className='home_gallery_title'> <HiArrowLongRight /><h5>Explore our Gallery</h5></div> */}
                                 {
                                     gallery.map((gallery, index) => {
