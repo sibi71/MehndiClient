@@ -1,0 +1,139 @@
+.learn{
+    padding: 2rem 0;
+}
+.learn_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: capitalize;
+}
+.learn_title{
+    
+}
+.learn_title h5{
+    font-size: 60px;
+    margin: 0;
+    color: var(  --swiper-navigation-color);
+}
+.learn_title  p {
+    font-size: 14px;
+    color: gray;
+   
+}
+.learn_title a {
+    text-decoration: none;
+    background-color: var(--swiper-navigation-color);
+    color: var(--swiper-theme-color);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+.learn_img img {
+    width: 700px;
+    object-fit: cover;
+}
+.learn_course{
+    padding: 2rem 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto  ;
+}
+.learn_course_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px , 1fr));
+    gap: 1rem;
+    padding:1rem;
+    text-transform: capitalize;
+}
+.learn_course_card{
+    border-radius: 30px;
+    padding: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.learn_course_card h5 {
+    font-size: 30px;
+    margin: 0;
+    color: var(--swiper-navigation-color);
+    margin-bottom: 1rem;
+}
+.learn_course_description {
+    margin-bottom: 1rem;
+    
+}
+.learn_course_description h6{
+    font-size: 18px;
+    margin: 0;
+}
+.learn_course_description ul li {
+    margin-bottom:1rem ;
+    font-size: 16px;
+    color: gray;
+}
+.learn_course_payment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+}
+.learn_course_payment button{
+    outline: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 1rem; 
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 99px;
+    padding: 0.8rem 1rem;
+    color: black;
+    transition: 0.5s all ease-in-out;
+}
+.learn_course_card:hover .learn_course_payment button{
+    border: none;
+    color: var(--swiper-navigation-color);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+@media screen  and (max-width:1025px){  
+    .learn_img img {
+        width: 450px;
+    }
+    .learn_title h5 {
+        font-size: 40px;
+    }
+    
+}
+@media screen  and (max-width:769px){ 
+    .learn_container{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .learn_course_payment{
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+       
+    }
+    .learn_course_payment button{
+        width: 70vw;
+    }
+    
+}
+@media screen  and (max-width:426px){ 
+  
+    
+    .learn_course_container{
+        padding: 0;
+    }
+    .learn_img img {
+        margin-top: 1rem;
+        width: 300px;
+    }
+}
+@media screen  and (max-width:376px){ 
+  
+   
+}

@@ -39,7 +39,7 @@ const Service = () => {
                                                         <h5>{category.title}</h5>
                                                         <p>{category.sub}</p>
                                                         <div className='service_price'>
-                                                            <h5>₹{category.Prices}</h5>
+                                                            <h5>{category.Prices}</h5>
                                                         </div>
                                                         <div className='service_highlights'>
                                                             <Accordion key={index} className='service_card'>
@@ -103,7 +103,7 @@ const Service = () => {
 
                                                         </div>
                                                         <div className='serive_book_btn'>
-                                                            <Button>{category.btn}</Button>
+                                                            <Link to={`${category.title}`}>{category.btn}</Link>
                                                         </div>
                                                     </div>
 
@@ -140,8 +140,8 @@ const Service = () => {
                                             })
                                         }
                                         <div className='home_book_btn'>
-                                            <Link to={book.service}>{book.service}</Link>
-                                            <Link to={book.contact}>{book.contact}</Link>
+                                          
+                                            <Link to={`${book.contact}`}>{book.contact}</Link>
                                         </div>
                                     </div>
                                     <div className='home_book_details'>

@@ -17,7 +17,7 @@ const Footer = () => {
                                     <br></br>
                                     <div className='footer_follow'>
                                         <h5>{footer.follow.title} <HiArrowLongRight /></h5>
-                                        <p>
+                                        <p> 
                                             {
                                                 footer.follow.icon.map((icon, index) => {
                                                     return (
@@ -29,10 +29,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <div className='footer_company'>
-
                                     <h5>use full links </h5>
-
-
                                     <ul>
                                         {
                                             footer.navlink.map((navlink, index) => {

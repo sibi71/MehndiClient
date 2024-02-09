@@ -1,0 +1,135 @@
+.booknow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+.booknow_title{
+    font-size: 50px;
+}
+.booknow_continer {
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 70px;
+    width: 50vw;
+}
+.booknow_payment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.booknow_payment_img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.booknow_payment_details {
+    padding-left: 1rem;
+    text-transform: capitalize;
+}
+.booknow_payment_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.booknow_payment_title h5{
+ font-size: 30px;
+ margin: 0;
+}
+.booknow_payment_title p {
+    color: gray;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.booknow_payment_check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.booknow_payment_check h5{
+    font-size: 30px;
+    margin: 0;
+    color: var(  --swiper-navigation-color);
+}
+.booknow_payment_check button {
+    outline: none;
+    border: none;
+    width: 10vw;
+    color: var(--swiper-theme-color);
+    background-color: rgb(17, 220, 41);
+    padding:0.8rem 0.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.5s all ease-in-out;
+}
+.booknow_payment_check button:hover{
+    background-color: green;
+}
+.booknow_back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--swiper-theme-color);
+    padding: 1rem;
+    background-color: var(--swiper-navigation-color);
+    margin-top: 1rem;
+    width: auto;
+    border-radius: 40px;
+
+}
+
+
+@media screen  and (max-width:1025px){  
+    .booknow_continer{
+        width: 70vw;
+    }
+    .booknow_payment_check button{
+        width: 15vw;
+
+    }
+}
+@media screen  and (max-width:769px){  
+    .booknow_payment{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .booknow_payment_check button{
+        width: 30vw;
+
+    }
+}
+@media screen  and (max-width:426px){
+    .booknow_continer{
+        width:62vw;
+        border-radius: 20px;
+    }
+    .booknow_payment_check{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .booknow_payment_check button{
+        width: 70vw;
+        margin-top:1rem ;
+
+    }
+    .booknow_payment_img img {
+        width: 250px;
+        height: 250px;
+    }
+   
+ }

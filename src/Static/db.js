@@ -25,6 +25,7 @@ import bookimg9 from "../img/9.jpg"
 import bookimg10 from "../img/10.jpg"
 import bookimg11 from "../img/11.jpg"
 import bookimg12 from "../img/12.jpg"
+import learn from "../img/learn.jpg"
 
 export const navbar = [
     {
@@ -38,7 +39,7 @@ export const navbar = [
 
 
 
-        ], 
+        ],
 
     }
 ]
@@ -54,7 +55,7 @@ export const header = [
         ],
         title: "Discover the Beauty of Mehndi 🌿",
         sub: "Captivate hearts and celebrate traditions with our exquisite Mehndi designs. From bridal elegance to festive celebrations, we bring the magic of henna to life.",
-        btn:"Book Now for Bridal Mehndi"
+        btn: "Book Now for Bridal Mehndi"
     },
 
 ]
@@ -88,75 +89,75 @@ export const gallery = [
         title: " Explore our Gallery 🎨",
         sub: "Immerse yourself in the intricate details of our stunning Mehndi designs. Each stroke tells a story, each pattern resonates with cultural richness.",
         btn: "view more",
-        imglist:[
-            
+        imglist: [
+
             {
                 bookImgs: bookimg1,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
             {
                 bookImgs: bookimg2,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
             {
                 bookImgs: bookimg3,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
             {
                 bookImgs: bookimg4,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
             {
                 bookImgs: bookimg5,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
             {
                 bookImgs: bookimg6,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
             {
                 bookImgs: bookimg7,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
             {
                 bookImgs: bookimg8,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
             {
                 bookImgs: bookimg9,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
             {
                 bookImgs: bookimg10,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
             {
                 bookImgs: bookimg11,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
             {
                 bookImgs: bookimg12,
-                subtitle:"mehndi artist design",
-                author:"maha"
+                subtitle: "mehndi artist design",
+                author: "maha"
             },
-         
-    
+
+
         ]
 
 
     },
-   
+
 ]
 export const Artists = [
     {
@@ -331,114 +332,151 @@ export const footer = [
 
 export const faq = [
     {
-        que:"How long does Mehndi last?",
-        ans:"The longevity of Mehndi depends on various factors, including the type of henna used, skin type, and aftercare. Typically, Mehndi lasts between one to three weeks."
+        que: "How long does Mehndi last?",
+        ans: "The longevity of Mehndi depends on various factors, including the type of henna used, skin type, and aftercare. Typically, Mehndi lasts between one to three weeks."
     },
     {
-        que:" Can I get Mehndi for special occasions other than weddings?",
-        ans:"Absolutely! We offer Mehndi services for a variety of occasions, including festivals, parties, and cultural celebrations. Each design can be customized to suit the event."
+        que: " Can I get Mehndi for special occasions other than weddings?",
+        ans: "Absolutely! We offer Mehndi services for a variety of occasions, including festivals, parties, and cultural celebrations. Each design can be customized to suit the event."
     },
     {
-        que:"Is Mehndi safe for all skin types?",
-        ans:"A: Yes, our Mehndi uses natural henna and is generally safe for all skin types. However, it's advisable to inform our artists about any skin allergies or sensitivities before the application."
+        que: "Is Mehndi safe for all skin types?",
+        ans: "A: Yes, our Mehndi uses natural henna and is generally safe for all skin types. However, it's advisable to inform our artists about any skin allergies or sensitivities before the application."
     },
     {
-        que:"How far in advance should I book a Mehndi session?",
-        ans:"To ensure availability, we recommend booking your Mehndi session at least 2-3 weeks in advance. For peak wedding seasons, earlier bookings are advisable."
+        que: "How far in advance should I book a Mehndi session?",
+        ans: "To ensure availability, we recommend booking your Mehndi session at least 2-3 weeks in advance. For peak wedding seasons, earlier bookings are advisable."
     },
     {
-        que:"Can I bring my own Mehndi design ideas?",
-        ans:"Absolutely! We encourage clients to share their design ideas and preferences. Our artists can work with you to create a custom Mehndi design that reflects your style and vision."
+        que: "Can I bring my own Mehndi design ideas?",
+        ans: "Absolutely! We encourage clients to share their design ideas and preferences. Our artists can work with you to create a custom Mehndi design that reflects your style and vision."
     },
     {
-        que:" Do I need any prior experience in art to join the Mehndi classes?",
-        ans:"No prior art experience is required. Our classes are suitable for beginners, and we provide step-by-step guidance for each technique."
+        que: " Do I need any prior experience in art to join the Mehndi classes?",
+        ans: "No prior art experience is required. Our classes are suitable for beginners, and we provide step-by-step guidance for each technique."
     },
     {
-        que:"What materials will I need for the Mehndi classes?",
-        ans:"The basic materials include natural henna paste, applicator cones, design templates, and practice sheets. We can provide a recommended list of materials for each class."
+        que: "What materials will I need for the Mehndi classes?",
+        ans: "The basic materials include natural henna paste, applicator cones, design templates, and practice sheets. We can provide a recommended list of materials for each class."
     },
     {
-        que:"Can I learn Mehndi online, or are in-person classes available?",
-        ans:"Currently, we offer both online and in-person Mehndi classes. Choose the format that suits your preferences and availability."
+        que: "Can I learn Mehndi online, or are in-person classes available?",
+        ans: "Currently, we offer both online and in-person Mehndi classes. Choose the format that suits your preferences and availability."
     },
     {
-        que:"Is certification provided upon completion of the Mehndi course?",
-        ans:"Yes, we offer certification for students who successfully complete our Mehndi learning program. The certificate acknowledges your skills and completion of the course."
+        que: "Is certification provided upon completion of the Mehndi course?",
+        ans: "Yes, we offer certification for students who successfully complete our Mehndi learning program. The certificate acknowledges your skills and completion of the course."
     },
     {
-        que:"Are there any age restrictions for joining the Mehndi classes?",
-        ans:"Our Mehndi classes are open to all age groups. We offer age-appropriate guidance and materials for different skill levels."
+        que: "Are there any age restrictions for joining the Mehndi classes?",
+        ans: "Our Mehndi classes are open to all age groups. We offer age-appropriate guidance and materials for different skill levels."
     }
 
 
 ]
-export const service=[
+export const service = [
     {
-        category:[
+        category: [
             {
                 title: "Elegance Unveiled: Bridal Mehndi Services",
                 sub: "Transform your wedding day into a canvas of intricate beauty with our bespoke Bridal Mehndi services. Each design is crafted to complement your unique style and celebrate the joy of this special occasion.",
-                img:"https://media.weddingz.in/images/d4d1c5c3e15d298ad37c0ab79cfc0bb4/Henna-for-all-5.jpg",
-                Highlightstitle:"Service Highlights",
-                Highlights:[
-                    {line:"Customized bridal designs tailored to your preferences."},
-                    {line:"Use of natural henna for a rich and lasting color."},
-                    {line:"Experienced artists dedicated to creating a masterpiece for your big day."}
+                img: "https://media.weddingz.in/images/d4d1c5c3e15d298ad37c0ab79cfc0bb4/Henna-for-all-5.jpg",
+                Highlightstitle: "Service Highlights",
+                Highlights: [
+                    { line: "Customized bridal designs tailored to your preferences." },
+                    { line: "Use of natural henna for a rich and lasting color." },
+                    { line: "Experienced artists dedicated to creating a masterpiece for your big day." }
                 ],
-                Benefitstitle:"Benefits and Features",
-                Benefits:[
-                
-                    {line:"Personalized consultations for design planning."},
-                    {line:"Traditional and contemporary bridal patterns available."},
-                    {line:"Long-lasting and vibrant Mehndi guaranteed to enhance your bridal look"}
-                ],
-                Prices:"5,000/Events",
-                btn:"book now"
+                Benefitstitle: "Benefits and Features",
+                Benefits: [
 
-                
+                    { line: "Personalized consultations for design planning." },
+                    { line: "Traditional and contemporary bridal patterns available." },
+                    { line: "Long-lasting and vibrant Mehndi guaranteed to enhance your bridal look" }
+                ],
+                Prices: "₹ 5,000/Events",
+                btn: "book now"
+
+
             },
             {
                 title: "Celebrate with Style: Mehndi Parties and Events",
                 sub: "Make your celebrations memorable with our Mehndi Party and Event services. Whether it's a birthday, cultural event, or just a gathering of friends, we bring the joy of Mehndi to every occasion.",
-                img:"https://lifestyleweblogs.com/wp-content/uploads/2023/06/full-front-hand-mehndi-design.jpg",
-                Highlightstitle:"Service Highlights",
-                Benefitstitle:"Benefits and Features",
-                btn:"book now",
-                Highlights:[
-                    {line:"On-site Mehndi artists for parties and events."},
-                    {line:"Customized group packages for a unique experience."},
-                    {line:"Festive and vibrant Mehndi designs to elevate the celebration"}
+                img: "https://lifestyleweblogs.com/wp-content/uploads/2023/06/full-front-hand-mehndi-design.jpg",
+                Highlightstitle: "Service Highlights",
+                Benefitstitle: "Benefits and Features",
+                btn: "book now",
+                Highlights: [
+                    { line: "On-site Mehndi artists for parties and events." },
+                    { line: "Customized group packages for a unique experience." },
+                    { line: "Festive and vibrant Mehndi designs to elevate the celebration" }
                 ],
-                Benefits:[
-                    {line:"Group Bonding: Highlight how Mehndi parties create a fun and bonding experience."},
-                    {line:"Custom Themes: Offer customization based on the theme or nature of the event."},
-                    {line:"Inclusive Packages: Detail what is included in your Mehndi party packages."}
+                Benefits: [
+                    { line: "Group Bonding: Highlight how Mehndi parties create a fun and bonding experience." },
+                    { line: "Custom Themes: Offer customization based on the theme or nature of the event." },
+                    { line: "Inclusive Packages: Detail what is included in your Mehndi party packages." }
                 ],
-                Prices:"10,000/Events"
-                
+                Prices: "₹ 10,000/Events"
+
             },
             {
                 title: "Cherish Every Moment: Special Event Mehndi",
                 sub: "Add a touch of elegance to your special moments with our Special Event Mehndi services. Whether it's an anniversary, baby shower, or any milestone, we create designs that resonate with your joy",
-                img:"https://www.beyoung.in/blog/wp-content/uploads/2023/06/Bridal-Mehndi-Design-for-Back-Hands-2.jpg",
-                Highlightstitle:"Service Highlights",
-                Benefitstitle:"Benefits and Features",
-                btn:"book now",
-                Highlights:[
-                    {line:"Tailored Mehndi designs to match the theme and significance of the event."},
-                    {line:"Use of natural henna for a rich and lasting color."},
-                    {line:"Experienced artists dedicated to creating a masterpiece for your big day."}
+                img: "https://www.beyoung.in/blog/wp-content/uploads/2023/06/Bridal-Mehndi-Design-for-Back-Hands-2.jpg",
+                Highlightstitle: "Service Highlights",
+                Benefitstitle: "Benefits and Features",
+                btn: "book now",
+                Highlights: [
+                    { line: "Tailored Mehndi designs to match the theme and significance of the event." },
+                    { line: "Use of natural henna for a rich and lasting color." },
+                    { line: "Experienced artists dedicated to creating a masterpiece for your big day." }
                 ],
-                Benefits:[
-                    {line:"Personalized consultations for design planning."},
-                    {line:"Traditional and contemporary bridal patterns available."},
-                    {line:"Long-lasting and vibrant Mehndi guaranteed to enhance your bridal look"}
+                Benefits: [
+                    { line: "Personalized consultations for design planning." },
+                    { line: "Traditional and contemporary bridal patterns available." },
+                    { line: "Long-lasting and vibrant Mehndi guaranteed to enhance your bridal look" }
                 ],
-                Prices:"15,000/Events"
-                
+                Prices: "₹ 15,000/Events"
+
             },
         ],
-       
+
+    }
+]
+export const learning = [
+    {
+        title: "Discover the Art of Mehndi",
+        sub: "Unlock the beauty of henna with our comprehensive Mehndi learning program. Whether you're a beginner or seeking advanced techniques, your artistic journey begins here.",
+        btn: "Explore Courses",
+        img:learn,
+        Course: [
+            {
+                title: "Beginner's Mehndi Course",
+                description: [
+                    { line: "Highlight what beginners can expect to learn", },
+                    { line: "Perfect for those new to Mehndi, this course covers basic techniques, popular designs, and the cultural significance of henna art" }
+                ],
+                price: "₹ 10,000",
+                btn: "enroll now "
+            },
+            {
+                title: "Advanced Mehndi Techniques",
+                description: [
+                    { line: "Briefly outline advanced techniques and design elements", },
+                    { line: "Elevate your Mehndi skills with our advanced course, exploring complex designs, shading techniques, and innovative applications" }
+                ],
+                price: "₹ 20,000",
+                btn: "enroll now "
+            },
+            {
+                title: "Cultural Mehndi Workshop",
+                description: [
+                    { line: "Emphasize the cultural aspects covered in this workshop", },
+                    { line: "Dive deep into the cultural roots of Mehndi with this workshop, exploring traditional patterns, symbols, and regional variations" }
+                ],
+                btn: "enroll now "
+            }
+        ]
+
     }
 ]

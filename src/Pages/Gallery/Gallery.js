@@ -57,8 +57,8 @@ const Gallery = () => {
                                             })
                                         }
                                         <div className='home_book_btn'>
-                                            <Link to={book.service}>{book.service}</Link>
-                                            <Link to={book.contact}>{book.contact}</Link>
+                                            <Link to={"/service"}>{book.service}</Link>
+                                            <Link to={`/${book.contact}`}>{book.contact}</Link>
                                         </div>
                                     </div>
                                     <div className='home_book_details'>
