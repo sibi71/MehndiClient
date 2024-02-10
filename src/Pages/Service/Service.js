@@ -8,9 +8,14 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import {motion} from "framer-motion"
 const Service = () => {
     return (
-        <div className='service'>
+        <motion.div className='service'
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0,transition:{duration:.5}}}
+        >
             <div className='service_title'>
                 <div className='service_title_left'>
                 <h5>Embark on a journey of elegance with our exclusive Mehndi services.</h5>
@@ -140,7 +145,7 @@ const Service = () => {
                                         }
                                         <div className='home_book_btn'>
                                           
-                                            <Link to={`${book.contact}`}>{book.contact}</Link>
+                                            <Link to={`/${book.contact}`}>{book.contact}</Link>
                                         </div>
                                     </div>
                                     <div className='home_book_details'>
@@ -161,7 +166,7 @@ const Service = () => {
             </div>
             {/* end learning */}
 
-        </div>
+        </motion.div>
     )
 }
 

@@ -4,7 +4,7 @@ import { useParams,Link } from "react-router-dom"
 
 import { service } from '../../Static/db';
 import { FaAngleLeft } from "react-icons/fa";
-
+import { motion } from 'framer-motion';
 const Booknow = () => {
 
 
@@ -18,7 +18,12 @@ const Booknow = () => {
   })
 
   return (
-    <div className='booknow'>
+    <motion.div className='booknow'
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    exit={{opacity:0,transition:{duration:.5}}}
+    
+    >
       <div className='booknow_title'>
         <h5>Book Your Payment</h5>
       </div>
@@ -51,7 +56,7 @@ const Booknow = () => {
         }
 
       </div>
-    </div>
+    </motion.div>
   )
 }
 

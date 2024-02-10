@@ -4,10 +4,15 @@ import { book, header } from '../../Static/db'
 import "./Gallery.css"
 import { Link } from 'react-router-dom'
 import Imagelist from '../../Components/Imagelist/Imagelist'
-
+import { motion } from 'framer-motion' 
 const Gallery = () => {
     return (
-        <div className='gallery'>
+        <motion.div 
+        className='gallery'
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0,transition:{duration:.5}}}
+        >
             <div className='gallery_title'>
                 <h5>Gallery</h5>
             </div>
@@ -80,7 +85,7 @@ const Gallery = () => {
             {/* end learning */}
             
 
-        </div>
+        </motion.div>
     )
 }
 

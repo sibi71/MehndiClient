@@ -5,9 +5,15 @@ import { about, book, expertise, gallery, header, whyus } from '../../Static/db'
 import { Link } from 'react-router-dom'
 import { HiArrowLongRight } from "react-icons/hi2"
 import Swipers from '../../Components/Swipers/Swipers'
+import {motion} from "framer-motion"
 const Home = () => {
   return (
-    <div className='home' id="home">
+    <motion.div 
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    exit={{opacity:0,transition:{duration:0.5,}}}
+    
+    className='home' id="home">
       {
         header.map((data, index) => {
           return (
@@ -34,7 +40,9 @@ const Home = () => {
       }
 
       {/*section  Our Expertisee */}
-      <div className='home_expertise'>
+      <div className='home_expertise'
+      
+       >
         <div className='home_expertise_container'>
           {
             expertise.map((expertise, index) => {
@@ -60,7 +68,9 @@ const Home = () => {
         {
           about.map((about, index) => {
             return (
-              <div className='home_about_container' key={index}>
+              <div className='home_about_container' key={index}
+              
+               >
                 <div className='home_about_img'>
                   <img src={about.img} alt='' />
                 </div>
@@ -76,7 +86,9 @@ const Home = () => {
         }
       </div>
       {/* section whychoose us  */}
-      <div className='home_whyus'>
+      <div className='home_whyus'
+     
+      >
         {
           whyus.map((whyus, index) => {
             return (
@@ -107,7 +119,8 @@ const Home = () => {
 
       </div>
       {/*section  gallery*/}
-      <div className='home_gallery'>
+      <div className='home_gallery'   
+      >
         {/* <div className='home_gallery_title'> <HiArrowLongRight /><h5>Explore our Gallery</h5></div> */}
         {
           gallery.map((gallery, index) => {
@@ -138,7 +151,9 @@ const Home = () => {
       </div>
       {/* end gallery */}
       {/* Testimonials */}
-      <div className='home_testimonials'>
+      <div className='home_testimonials'
+     
+       >
         <div className='home_testimonials_title'>
           <p>What Client Say's About Our Services</p>
         </div>
@@ -167,7 +182,7 @@ const Home = () => {
                     }
                     <div className='home_book_btn'>
                       <Link to={"/service"}>{book.service}</Link>
-                      <Link to={`${book.contact}`}>{book.contact}</Link>
+                      <Link to={`/${book.contact}`}>{book.contact}</Link>
                     </div>
                   </div>
                   <div className='home_book_details'>
@@ -187,7 +202,7 @@ const Home = () => {
         }
       </div>
       {/* end learning */}
-    </div >
+    </motion.div >
   )
 }
 

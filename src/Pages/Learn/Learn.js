@@ -4,9 +4,14 @@ import "./Learn.css"
 import { book, gallery, learning } from '../../Static/db'
 import { Link } from 'react-router-dom'
 import Swipers from '../../Components/Swipers/Swipers'
+import { motion } from 'framer-motion'
 const Learn = () => {
     return (
-        <div className='learn'>
+        <motion.div className='learn'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0, transition: { duration: .5 } }}
+        >
             {
                 learning.map((learn, index) => {
                     return (
@@ -112,53 +117,53 @@ const Learn = () => {
                             </div>
                             {/* enf Testimonials */}
 
-                                 {/* elearning */}
-      <div className='home_book'>
-        {
-          book.map((book, index) => {
-            return (
-              <>
-                <div className='home_book_container' key={index}>
-                  <div className='home_book_title' >
-                    <h5>{book.title}</h5>
-                    <p>{book.sub}</p>
-                    {
-                      book.mediaicon.map((icon, index) => {
-                        return (
-                          <>
-                            <a href={icon.link} key={index} target='blank' className='home_book_mediaicon'>{icon.icons}</a>
-                          </>
-                        )
-                      })
-                    }
-                    <div className='home_book_btn'>
-                      <Link to={"/service"}>{book.service}</Link>
-                      <Link to={`${book.contact}`}>{book.contact}</Link>
-                    </div>
-                  </div>
-                  <div className='home_book_details'>
-                    <marquee direction="left">
-                      {book.img.map((video, index) => {
-                        return (
-                          <img src={video.bookImgs} alt='' key={index} />
-                        )
-                      })}
-                    </marquee>
-                  </div>
+                            {/* elearning */}
+                            <div className='home_book'>
+                                {
+                                    book.map((book, index) => {
+                                        return (
+                                            <>
+                                                <div className='home_book_container' key={index}>
+                                                    <div className='home_book_title' >
+                                                        <h5>{book.title}</h5>
+                                                        <p>{book.sub}</p>
+                                                        {
+                                                            book.mediaicon.map((icon, index) => {
+                                                                return (
+                                                                    <>
+                                                                        <a href={icon.link} key={index} target='blank' className='home_book_mediaicon'>{icon.icons}</a>
+                                                                    </>
+                                                                )
+                                                            })
+                                                        }
+                                                        <div className='home_book_btn'>
+                                                            <Link to={"/service"}>{book.service}</Link>
+                                                            <Link to={`/${book.contact}`}>{book.contact}</Link>
+                                                        </div>
+                                                    </div>
+                                                    <div className='home_book_details'>
+                                                        <marquee direction="left">
+                                                            {book.img.map((video, index) => {
+                                                                return (
+                                                                    <img src={video.bookImgs} alt='' key={index} />
+                                                                )
+                                                            })}
+                                                        </marquee>
+                                                    </div>
 
-                </div>
-              </>
-            )
-          })
-        }
-      </div>
-      {/* end learning */}
+                                                </div>
+                                            </>
+                                        )
+                                    })
+                                }
+                            </div>
+                            {/* end learning */}
                         </>
                     )
                 })
             }
 
-        </div>
+        </motion.div>
     )
 }
 

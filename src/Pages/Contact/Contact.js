@@ -5,9 +5,14 @@ import "./Contact.css"
 import img from "../../img/5.jpg"
 import { book } from '../../Static/db'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 const Contact = () => {
   return (
-    <div className='contact'>
+    <motion.div className='contact'
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    exit={{opacity:0,transition:{duration:.5}}}
+    >
         <div className='contact_title'>
             <h5>Thank you for considering </h5>
         </div>
@@ -72,7 +77,7 @@ const Contact = () => {
       </div>
       {/* end learning */}
 
-    </div>
+    </motion.div>
   )
 }
 

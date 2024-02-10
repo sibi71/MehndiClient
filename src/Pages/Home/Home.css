@@ -550,6 +550,7 @@
     }
     .home_about_details{
         margin-left: 0;
+        width: 80vw;
     }
     .home_about_img img {
         max-width: 30   0px;
